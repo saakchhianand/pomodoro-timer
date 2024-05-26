@@ -1,0 +1,66 @@
+body {
+    background-color: #f39c12; /* Orange background color */
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for better visibility */
+}
+
+.title {
+    font-size: 48px; /* Larger font size */
+    margin-bottom: 20px; /* More space below the title */
+    background: -webkit-linear-gradient(#e74c3c, #f39c12); /* Gradient color */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Gradient text effect */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow for depth */
+    letter-spacing: 2px; /* Slight spacing between letters */
+}
+
+.timer {
+    font-size: 72px;
+    color: #2c3e50;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    background-color: #2c3e50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, opacity 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for 3D effect */
+}
+
+button:hover {
+    opacity: 0.7;
+    transform: scale(1.05); /* Slightly larger on hover */
+}
+
+button:active {
+    transform: scale(0.95); /* Slightly smaller when pressed */
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); /* Shadow changes on active */
+}
+
+#start {
+    background-color: #27ae60;
+}
+
+#stop {
+    background-color: #c0392b;
+}
+
+#reset {
+    background-color: #7f8c8d;
+}
